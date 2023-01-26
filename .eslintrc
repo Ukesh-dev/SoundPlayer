@@ -1,0 +1,17 @@
+{
+  "extends": ["wesbos/typescript"],
+  // "plugins": ["prettier"],
+  "ignorePatterns": ["postcss.config.cjs"],
+  "rules": {
+    "@typescript-eslint/no-shadow": "warn",
+    "prettier/prettier": [
+      "error",
+      {
+        "@typescript-eslint/no-shadow": "warn"
+        // "singleQuote": true,
+        // "endOfLine": "auto",
+        // "semi": false
+      }
+    ]
+  }
+}
